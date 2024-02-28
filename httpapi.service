@@ -1,0 +1,13 @@
+[Unit]
+Description=CPSC222 api assignment
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=ubuntu
+ExecStart=/home/ubuntu/test.py
+
+[Install]
+WantedBy=multi-user.target
