@@ -1,3 +1,4 @@
+# httpapi.service file is stored in /etc/systemd/service 
 [Unit]
 Description=CPSC222 api assignment
 After=network.target
